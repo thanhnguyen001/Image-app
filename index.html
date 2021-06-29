@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Image</title>
+    <link rel="icon" href="/img/0.jpg">
+    <link rel="stylesheet" href="css/style.css" title="Style - CSS" type="text/css" />
+    <script src="https://kit.fontawesome.com/29a0e49d27.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    
+    <header class="header">
+        <div class="header__box header__personality">
+            <p class="header__personality--para">Xinh đẹp</p>
+            <p class="header__personality--para">Dịu dàng</p>
+            <p class="header__personality--para">Ngoan ngoãn</p>
+        </div>
+        <div class="header__box header__name">
+            <p class="header__name--title">SUN</p>
+            <p class="header__name--add">Nguyen Yen Phung</p>
+        </div>
+        <div class="header__box header__personality">
+            <p class="header__personality--para">Nội tâm</p>
+            <p class="header__personality--para">Trắc ẩn</p>
+            <p class="header__personality--para">Hiểu chuyện</p>
+        </div>
+    </header>
+    
+    <section class="intro">
+        <div class="intro__box intro__banner"></div>
+        <div class="intro__avatar"></div>
+        <div class="intro__box intro__para">
+            <div class="intro__para--none"></div>
+            <div class="intro__para--blog">
+                <div class="intro__para--blog-info">
+                    <p class="intro__para--blog-name">Nguyễn Yến Phụng</p>
+                    <p class="intro__para--blog-tich"><i class="fas fa-check-circle"></i></p>
+                </div>
+                <div class="intro__para--blog-box">
+                    <p class="intro__para--blog-item intro__para--blog-write-1">
+                        Xinh đẹp - May Mắn - Thành công - Nhiều tiền
+                        <br /><br />
+                        Beauty - Lucky - Success - Wealthy
+                    </p>
+                    <br />
+                    <p class="intro__para--blog-item intro__para--blog-write-2">
+                        Thanh xuân là đoạn chuyện cũ muốn viết thành truyện mà chẳng thể đặt bút. Có những nhân vật không dám nhớ lại, sợ viết ra rồi sẽ làm thay đổi cả hương vị của câu chuyện, cuối cùng cũng có một cái mở đầu là một cái kết thúc.<br />
+                    </p>
+                    <p class="span-write-2">Năm tháng ấy, vì một người nói thích màu xanh. Mà đem lòng yêu luôn cả bầu trời</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="audio">
+        <audio class="audio__a" id="audio" onclick="play()" controls="controls" preload="preload">
+            <source src="audio/audio.mp3" type="audio/mpeg" />
+        </audio>
+        <br />
+        <br />
+    </section>
+    
+    <section class="image" id="hihi">
+        <div class="image__left">
+            <p class="image__left--title">Thanh Xuân</p>
+            <p class="image__left--para" contenteditable="true">
+                Chúng ta gặp gỡ nhau vào những tháng năm mà mỗi người đều rạng rỡ như một bông hoa hướng dương. Người ta gọi đó là tuổi trẻ, có người gọi đó là giấc mơ, có người gọi đó là thanh xuân. Dù sao tất cả đều công nhận rằng, đó là những khoảng thời gian rực rỡ nhất, những hồi ức tươi đẹp nhất.
+            </p>
+        </div>
+        <div class="image__right">
+            <div class="image__right--item image__right--1"></div>
+            <div class="image__right--item image__right--2"></div>
+            <div class="image__right--item image__right--3"></div>
+        </div>
+    </section>
+    
+    <section class="image-2">
+        <div class="image__box">
+            <span style="--i:1;"><img src="img/0.jpg" /></span>
+            <span style="--i:2;"><img src="img/0.jpg" /></span>
+            <span style="--i:3;"><img src="img/0.jpg" /></span>
+            <span style="--i:4;"><img src="img/0.jpg" /></span>
+            <span style="--i:5;"><img src="img/0.jpg" /></span>
+            <span style="--i:6;"><img src="img/0.jpg" /></span>
+            <span style="--i:7;"><img src="img/0.jpg" /></span>
+            <span style="--i:8;"><img src="img/0.jpg" /></span>
+        </div>
+        <p class="image__lax image__lax-1">Nguyễn Yến Phụng</p>
+        <p class="image__lax image__lax-2">Nguyễn Yến Phụng</p>
+        <p class="image__lax image__lax-3">25/08/2005</p>
+    </section>
+    
+    <section class="video">
+        <video class="video__vid" id="video" onclick={play()} controls="controls" preload="preload" poster="img/0.jpg" loop="loop">
+                <source src="/video/0.mp4" type="video/mp4"/>
+        </video>
+        <div class="video__para">
+           <p>
+                Cuộc đời là một hành trình lớn mà giữa những quãng đời được kết nối bằng những chuyến đi. Chuyến đi đầu tiên của mỗi chúng ta bắt đầu tại thời điểm mà ta ý thức được niềm khát khao được vùng vẫy, được vươn tay ra chạm vào và khám phá thế giới rộng lớn bên ngoài.
+                <br /><br />
+                Có những chuyến đi đưa ta đến những miền đất mới, gặp gỡ những con người mới, trải nghiệm những cảm xúc mới. Có những chuyến đi lại đưa ta trở về với nơi chốn thân quen và những con người cũ… Chúng ta của sau này, có thể không có nhau, nhưng kỷ niệm về những hành trình bên nhau là mãi mãi…
+           </p>
+        </div>
+    </section>
+    
+    <section class="image-3">
+        <div class="container">
+            <div class="card" style="--i:-1">
+               <div class="box">
+                  <div class="content" style="--j:1">
+                     <h2>01</h2>
+                     <p>Trong kẽ hở của thời gian và hiện thực, tuổi xuân cũng như sắc đẹp, mỏng manh như trang giấy bị gió hong khô.</p>
+                     <a>Xinh đẹp</a>
+                  </div>
+               </div>
+            </div>
+         
+            <div class="card" style="--i:0">
+                <div class="box">
+                    <div class="content" style="--j:2">
+                    <h2>02</h2>
+                    <p>May mắn là tuổi Thanh xuân của bạn chỉ có người ấy. Mà tiếc nuối cũng là cả Thanh xuân của bạn mới có được người ấy.</p>
+                    <a>May mắn</a>
+                    </div>
+                </div>
+            </div>
+         
+            <div class="card" style="--i:1">
+                <div class="box">
+                    <div class="content" style="--j:3">
+                        <h2>03</h2>
+                        <p>Tuổi Thanh xuân là chuyến tàu đẹp nhất của mỗi đời người. Cũng vì thế mà con người ta đặt thật nhiều ước mơ bồng bềnh trên đó.</p>
+                        <a>Nhiều tiền</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="click">Click để xem...</div>
+      </div>
+    </section>
+    
+    <footer class="footer">
+        <br />
+        <div class="footer__all">
+            <div class="footer__info">
+                <p class="footer__info--zalo">Zalo: <a>Đoán xem!</a></p>
+                <p class="footer__info--fb">Facebook: <a href="https://www.facebook.com/enderuyen">Ender Uyên</a></p>
+            </div>
+            <div class="footer__info">
+                <p class="footer__info--gmail">Gmail: <a href="mailto:enderuyen@gmail.com">enderuyen@gmail.com</a></p>
+                <p class="footer__info--address">Address: Dien Bien Phu city, Dien Bien Province, Vietnam</p>
+            </div>
+            <div class="footer__brand">
+                <img class="footer__brand--logo" src="img/logo.jpg" alt="Logo" />
+            </div>
+        </div>
+        <br />
+        <div class="footer__copyright"><p>© Copyright belongs to Ender Uyên - president of ENDGROUP</p></div>
+        <br /> 
+    </footer>
+    <script src="./main.js"></script>
+</body>
+
+</html>
